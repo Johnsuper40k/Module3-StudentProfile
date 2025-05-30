@@ -18,7 +18,7 @@ namespace StudentProfile
     {
         public string StudentID { get; set; }
         public string Major { get; set; }
-        public string ClassStanding { get; set; } // NEW: Freshman, Sophomore, etc.
+        public string ClassStanding { get; set; } // NEW: Freshman, Sophomore, Junior, Senior.
 
         public void DisplayStudentInfo()
         {
